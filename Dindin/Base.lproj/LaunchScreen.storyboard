@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DinDin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ub-EC-V49">
+                                <rect key="frame" x="16" y="548" width="382" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O melhor controle para suas finanças" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZN-uX-3Mg">
+                                <rect key="frame" x="16" y="624" width="382" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appWallet" translatesAutoresizingMaskIntoConstraints="NO" id="ctK-eN-QML">
+                                <rect key="frame" x="147" y="388" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="l9L-EF-yjE"/>
+                                    <constraint firstAttribute="height" constant="120" id="rzb-5I-rcr"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="primary"/>
+                        <constraints>
+                            <constraint firstItem="ctK-eN-QML" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="08d-jo-evB"/>
+                            <constraint firstItem="lZN-uX-3Mg" firstAttribute="trailing" secondItem="1ub-EC-V49" secondAttribute="trailing" id="2MO-h9-tQb"/>
+                            <constraint firstItem="1ub-EC-V49" firstAttribute="top" secondItem="ctK-eN-QML" secondAttribute="bottom" constant="40" id="SUz-rF-FXK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1ub-EC-V49" secondAttribute="trailing" constant="16" id="Y7c-me-Hbw"/>
+                            <constraint firstItem="lZN-uX-3Mg" firstAttribute="top" secondItem="1ub-EC-V49" secondAttribute="bottom" constant="16" id="Zg2-Xi-4gh"/>
+                            <constraint firstItem="lZN-uX-3Mg" firstAttribute="leading" secondItem="1ub-EC-V49" secondAttribute="leading" id="tvq-ef-v4l"/>
+                            <constraint firstItem="1ub-EC-V49" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uxS-SW-QjR"/>
+                            <constraint firstItem="ctK-eN-QML" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zVe-rn-rdI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="appWallet" width="90.5" height="106.5"/>
+        <namedColor name="primary">
+            <color red="0.19215686274509805" green="0.19607843137254902" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

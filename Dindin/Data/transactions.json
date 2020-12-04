@@ -1,0 +1,94 @@
+{
+	"transactions": [
+		{
+			"type": "INPUT",
+			"value": "R$ 1.245,00",
+			"category": "PIX",
+			"date": "19/11/2020"
+		},
+
+		{
+			"type": "OUTPUT",
+			"value": "R$ 300,00",
+			"category": "UAM",
+			"date": "19/11/2020"
+		},
+		
+		{
+			"type": "OUTPUT",
+			"value": "R$ 23,00",
+			"category": "PagSeguro",
+			"date": "18/11/2020"
+		},
+
+		{
+			"type": "INPUT",
+			"value": "R$ 900,00",
+			"category": "TED",
+			"date": "18/11/2020"
+		},
+		
+		{
+			"type": "INPUT",
+			"value": "R$ 600,00",
+			"category": "PIX",
+			"date": "18/11/2020"
+		},
+        
+        {
+            "type": "INPUT",
+            "value": "R$ 1.245,00",
+            "category": "PIX",
+            "date": "17/11/2020"
+        },
+
+        {
+            "type": "OUTPUT",
+            "value": "R$ 300,00",
+            "category": "UAM",
+            "date": "16/11/2020"
+        },
+        
+        {
+            "type": "OUTPUT",
+            "value": "R$ 23,00",
+            "category": "PagSeguro",
+            "date": "15/11/2020"
+        },
+
+        {
+            "type": "INPUT",
+            "value": "R$ 900,00",
+            "category": "TED",
+            "date": "14/11/2020"
+        },
+        
+        {
+            "type": "INPUT",
+            "value": "R$ 1.245,00",
+            "category": "PIX",
+            "date": "13/11/2020"
+        },
+
+        {
+            "type": "OUTPUT",
+            "value": "R$ 300,00",
+            "category": "UAM",
+            "date": "12/11/2020"
+        },
+        
+        {
+            "type": "OUTPUT",
+            "value": "R$ 23,00",
+            "category": "PagSeguro",
+            "date": "11/11/2020"
+        },
+
+        {
+            "type": "INPUT",
+            "value": "R$ 900,00",
+            "category": "TED",
+            "date": "10/11/2020"
+        }
+	]
+}
