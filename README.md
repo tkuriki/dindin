@@ -1,3 +1,3 @@
 # Dindin
 
-Desenvolvimento de um aplicativo financeiro feito para o Projeto Integrado da faculdade UAM.
+Repositório destinado ao desenvolvimento do projeto integrado do 5º semestre de ADS - Faculdade UAM
